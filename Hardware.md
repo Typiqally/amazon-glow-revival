@@ -39,12 +39,16 @@ The motherboard is marked with reference designators, which describe the usage f
 
 ## Optical module
 The optical module comprises a projector, RGB, and IR cameras. These cameras are employed to detect touch interactions on the projected images, necessitating precise calibration and secure fixation.
+
 ![Optical module](assets/optical-module.png)
+
 The optical module is additionally equipped with a privacy switch, allowing users to cover the cameras when needed.
 
 ## Infrared touch
 The labeled pair of IR LEDs on the PCBA are designed to offer a stereo field of view, effectively flooding the base of the tabletop with infrared light. When a finger taps the table, it interrupts the IR beam, allowing the IR camera to triangulate the exact point of touch. Together with the RGB Camera, this module provides valuable data regarding the timing of touches during games or ensure greater precision in drawing applications.
+
 ![Infrared touch](assets/infrared-touch.png)
+
 The emitter's focal point is directed towards the notch in the transparent diffuser, dispersing the beam evenly across the projected surface area. Achieving accuracy in the various components of this IR module seems essential, given that each component is affixed in position using adhesive after assembly.
 
 ## Sources
